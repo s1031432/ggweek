@@ -4,6 +4,7 @@ function getRandomInt(min, max) {
 }
 function colorChange(){
     $("#num").css("color", "rgba(230, 100, 100, 0.8)");
+    $("#ya").empty();
     $("#ya").append("恭喜中獎");
     setTimeout('$("#num").css("color", "rgba(0, 0, 0, 0.8)");', 500);
     setTimeout('$("#num").css("color", "rgba(230, 100, 100, 0.8)");', 1000);
